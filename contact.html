@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>RK laser</title>
+        <link rel="stylesheet" href="contact.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https:/stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logos.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                        
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="shomenu()"></i>
+            </nav>
+            <h1>Contact Us</h1>
+        </section>
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d418.6331864430953!2d77.5240985!3d11.1216187!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc56b84731faf0dbf!2sRk%20lasers!5e1!3m2!1sen!2sin!4v1647837309426!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+         </section>
+           <section class="contact-us">
+               <div class="roe">
+                   <div class="contact-col">
+                        <div>
+                            <i class="fa fa-home"></i>
+                            <samp>
+                                <h5>XYZ Rode,ABC bulliding</h5>
+                                <p>Kodumanal </p>
+                            </samp>
+                        </div>
+                        <div>
+                            <i class="fa fa-phone"></i>
+                            <samp>
+                                <h5>XYZ Rode,ABC bulliding</h5>
+                                <p>9442040000</p>
+                            </samp>
+                        </div>
+                        <div>
+                            <i class="fa fa-envelope-o"></i>
+                            <samp>
+                                <h5>XYZ Rode,ABC bulliding</h5>
+                                <p>ragavanskml@gmail.com</p>
+                            </samp>
+                        </div>
+                   </div>
+                   <div class="contact-col">
+                       <form action="form-handdeler.php" method="post">
+                           <input type="text" name="name"  placeholder="Enter Your Name" 
+                           required>
+                           <input type="email" name="email" placeholder="Enter Your Email" 
+                           required>
+                           <input type="text" name="Subject" placeholder="Enter Your Subject" 
+                           required>
+                           <textarea rows="8" name="Message" placeholder="Message"required></textarea>
+                           <button type="submit" class="hero-btn red-btn">Send Message</button>
+                       </form>
+                </div>
+                
+               </div>
+           </section>
+         
+        <section class="footer">
+            <h4>About us</h4>
+            <p>A jewelry laser engraver is a CNC jewelry engraving kit <br>(computerized jewelry engraving machine) for etching all kinds of custom jewelries with high speed,    
+            </p>
+            <div class="icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+
+            </div>
+            <p>Made With <i class="fa fa-heart-o"></i> by Ragavan s</p>
+        </section>
+      
+         
+
+
+
+
+                 <script>
+                     
+                   var navLinks = document.getElementById("navLinks");
+                   function shomenu(){
+                   navLinks.style.right  ="0";
+                    }
+                    function hidemenu(){
+                          navLinks.style.right  ="-200px";
+                    }
+                </script>
+                   
+    
+        
+    </body>
+    </html>
